@@ -309,9 +309,9 @@ $tlCfg->smarty_debug = false;
  *  put it out of reach via web or configure access denied.
  */
 /**$tlCfg->log_path = 'https://github.com/ahmedelshfie/testlink/tree/master/logs'; /* unix example */
-if (($lp = getenv('TESTLINK_LOG_PATH'))) {
+/**if (($lp = getenv('TESTLINK_LOG_PATH'))) {
   $tlCfg->log_path = trim($lp);
-}
+}*/
 
 /**
  * @var string How to warning user when security weak points exists.
@@ -1533,9 +1533,9 @@ $g_repositoryType = TL_REPOSITORY_TYPE_FS;
  *
  **/
 /**$g_repositoryPath = 'https://github.com/ahmedelshfie/testlink/tree/master/upload_area';  /* unix example */
-if (($upa = getenv('TESTLINK_UPLOAD_AREA'))) {
+/**if (($upa = getenv('TESTLINK_UPLOAD_AREA'))) {
   $g_repositoryPath = trim($upa);
-}
+}*/
 
 /**
  * compression used within the repository
